@@ -1,0 +1,19 @@
+{
+  "name": "empty-string-devtools-crash",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "inferno": "^3.0.5",
+    "inferno-component": "^3.0.5",
+    "inferno-devtools": "^3.0.5"
+  },
+  "devDependencies": {
+    "inferno-scripts": "3.0.0"
+  },
+  "scripts": {
+    "start": "inferno-scripts start",
+    "build": "inferno-scripts build",
+    "test": "inferno-scripts test --env=jsdom",
+    "eject": "inferno-scripts eject"
+  }
+}
